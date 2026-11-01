@@ -23,7 +23,7 @@
         "shortDescription": "Photos into delivered prints",
         "longDescription": "Browse photo products, check artwork requirements, estimate prices using ZIP/state and track your orders. Narrow OAuth connector; purchases and payment require customer approval on the website. US delivery only. Printing and shipping are paid services.",
         "developerName": "Rainmaker LLC",
-        "category": "Shopping",
+        "category": "Productivity",
         "capabilities": [
           "Read",
           "Write"
