@@ -14,5 +14,9 @@
     "photo-printing",
     "ecommerce",
     "mcp"
-  ]
+  ],
+  "privacyPolicyUrl": "https://photoprintagent.com/privacy",
+  "supportUrl": "https://photoprintagent.com/support",
+  "documentationUrl": "https://photoprintagent.com/docs/mcp-narrow",
+  "termsOfServiceUrl": "https://photoprintagent.com/terms"
 }
