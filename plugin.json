@@ -1,0 +1,45 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "photoprintagent",
+  "version": "2.4.0",
+  "description": "Browse photo prints, estimate delivery prices and track orders.",
+  "author": {
+    "name": "Rainmaker LLC",
+    "email": "support@photoprintagent.com",
+    "url": "https://photoprintagent.com"
+  },
+  "homepage": "https://photoprintagent.com/agents",
+  "repository": "https://github.com/blockrushusa/photoprintagent-mcp",
+  "license": "MIT",
+  "keywords": [
+    "photo-printing",
+    "ecommerce",
+    "mcp"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "PhotoPrintAgent",
+        "shortDescription": "Photos into delivered prints",
+        "longDescription": "Browse photo products, check artwork requirements, estimate prices using ZIP/state and track your orders. Narrow OAuth connector; purchases and payment require customer approval on the website. US delivery only. Printing and shipping are paid services.",
+        "developerName": "Rainmaker LLC",
+        "category": "Shopping",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://photoprintagent.com",
+        "supportURL": "https://photoprintagent.com/support",
+        "privacyPolicyURL": "https://photoprintagent.com/privacy",
+        "termsOfServiceURL": "https://photoprintagent.com/terms",
+        "logo": "./assets/icon.svg",
+        "composerIcon": "./assets/icon.svg",
+        "defaultPrompt": [
+          "Compare available 4x6 and 5x7 prints.",
+          "Estimate ten 4x6 prints delivered to ZIP 06511, CT.",
+          "Show the latest status of my orders."
+        ]
+      }
+    }
+  }
+}

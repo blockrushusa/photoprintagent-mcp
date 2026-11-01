@@ -1,0 +1,18 @@
+{
+  "name": "photoprintagent",
+  "version": "2.4.0",
+  "description": "Browse photo prints, estimate delivery prices and track orders.",
+  "author": {
+    "name": "Rainmaker LLC",
+    "email": "support@photoprintagent.com",
+    "url": "https://photoprintagent.com"
+  },
+  "homepage": "https://photoprintagent.com/agents",
+  "repository": "https://github.com/blockrushusa/photoprintagent-mcp",
+  "license": "MIT",
+  "keywords": [
+    "photo-printing",
+    "ecommerce",
+    "mcp"
+  ]
+}

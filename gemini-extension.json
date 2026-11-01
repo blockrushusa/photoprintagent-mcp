@@ -1,0 +1,9 @@
+{
+  "name": "photoprintagent",
+  "version": "2.4.0",
+  "mcpServers": {
+    "photoprintagent": {
+      "httpUrl": "https://photoprintagent.com/mcp-narrow"
+    }
+  }
+}
